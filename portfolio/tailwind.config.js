@@ -13,6 +13,11 @@ module.exports = {
     fontFamily: {
       'sans':['Helvetica']
     },
+    colors: {
+      orange: {
+        500: '#FF3E29'
+      }
+    },
     extend: {},
   },
   variants: {
