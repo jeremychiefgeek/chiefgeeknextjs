@@ -1,6 +1,8 @@
 <template>
-  <div class="max-w-5xl">
-    <Header />
-    <NuxtPage />
+  <div>
+    <Header class="absolute" />
+    <main>
+      <NuxtPage />
+    </main>
   </div>
 </template>
