@@ -35,11 +35,42 @@
                             <p class="font-regular text-xs pt-4 uppercase">Lines of code written</p>
                         </div>
                         <div class="col-span-2">
-                            <p class="font-bold text-4xl">Countless</p>
+                            <p class="font-bold text-4xl"></p>
                             <p class="font-regular text-xs pt-5 uppercase">People Helped</p>
                         </div>
                     </div>
                     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container m-auto grid grid-cols-12 pt-20 pb-20 place-items-center text-center">
+            <div class="col-span-12 pb-10 gap-4">
+                <p class="text-orange-500 font-sans col-span-4 text-2xl">Our Services</p>
+            </div>
+            <div class="col-span-3">
+                <div class="group">
+                    <img src="/images/undraw_proud_coder_re_exuy.png" class="pt-1 transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="React" />
+                    <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Web Development</p>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="group">
+                    <img src="/images/undraw_mobile_application_re_13u3.png" class="transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Mobile Development" />
+                    <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Mobile Development</p>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="group">
+                    <img src="/images/undraw_modern_design_re_dlp8.png" class="transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Modern Design -  UI/UX" />
+                    <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">UI/UX Development</p>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="group">
+                    <img src="/images/undraw_solution_mindset_re_57bf.png" class="pt-4 pb-4 transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Solution Planning" />
+                    <p class="font-regular opacity-0 text-orange-500 text-sm pt-4 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Solution Planning</p>
                 </div>
             </div>
         </div>
