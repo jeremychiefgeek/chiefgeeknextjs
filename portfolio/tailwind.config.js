@@ -19,7 +19,8 @@ module.exports = {
       },
       blue: {
         900: '#00193B'
-      }
+      },
+      white: '#ffffff'
     },
     extend: {},
   },

@@ -46,33 +46,59 @@
     </div>
     <div>
         <div class="container m-auto grid grid-cols-12 pt-20 pb-20 place-items-center text-center">
-            <div class="col-span-12 pb-10 gap-4">
+            <div class="col-span-12 pb-20 gap-4">
                 <p class="text-orange-500 font-sans col-span-4 text-2xl">Our Services</p>
             </div>
             <div class="col-span-3">
-                <div class="group">
+                <div class="group cursor-pointer">
                     <img src="/images/undraw_proud_coder_re_exuy.png" class="pt-1 transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="React" />
                     <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Web Development</p>
                 </div>
             </div>
             <div class="col-span-3">
-                <div class="group">
+                <div class="group cursor-pointer">
                     <img src="/images/undraw_mobile_application_re_13u3.png" class="transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Mobile Development" />
                     <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Mobile Development</p>
                 </div>
             </div>
             <div class="col-span-3">
-                <div class="group">
+                <div class="group cursor-pointer">
                     <img src="/images/undraw_modern_design_re_dlp8.png" class="transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Modern Design -  UI/UX" />
                     <p class="font-regular opacity-0 text-orange-500  text-sm pt-5 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">UI/UX Development</p>
                 </div>
             </div>
             <div class="col-span-3">
-                <div class="group">
+                <div class="group cursor-pointer">
                     <img src="/images/undraw_solution_mindset_re_57bf.png" class="pt-4 pb-4 transition delay-150 duration-300 ease-in-out group-hover:scale-110" alt="Solution Planning" />
                     <p class="font-regular opacity-0 text-orange-500 text-sm pt-4 uppercase ease-in-out duration-300 delay-150 group-hover:opacity-100">Solution Planning</p>
                 </div>
             </div>
         </div>
     </div>
+    <div class="bg-blue-900">
+        <div class="container m-auto grid grid-cols-12 pt-4 pb-4 place-items-baseline">
+            <div class="col-span-4">
+                <img src="/images/chiefgeek_logo_white.png" class="w-32" alt="Chief Geek" />
+                <p class="text-white pt-3 text-xs">Navigation:</p>
+                <div class="grid grid-cols-2 pt-2 text-white text-left gap-3 text-sm">
+                    <NuxtLink to="/" class="hover:text-white/75">Home</NuxtLink>
+                    <NuxtLink to="/about" class="hover:text-white/75">About Us</NuxtLink>
+                    <NuxtLink to="/products" class="hover:text-white/75">Products</NuxtLink>
+                    <NuxtLink to="/services" class="hover:text-white/75">Services</NuxtLink>
+                    <NuxtLink to="blog" class="hover:text-white/75">Blog</NuxtLink>
+                    <NuxtLink to="/contact" class="hover:text-white/75">Contact Us</NuxtLink>
+                </div>
+            </div>
+            <div class="col-span-4">
+                <p class="text-white pt-3 text-xs">Latest Blog Posts:</p>
+                <div class="grid grid-cols-1 pt-2 text-white text-left gap-3 text-sm">
+                    <NuxtLink to="/" class="hover:text-white/75">Home</NuxtLink>
+                    <NuxtLink to="/about" class="hover:text-white/75">About Us</NuxtLink>
+                    <NuxtLink to="/products" class="hover:text-white/75">Products</NuxtLink>
+                </div>
+            </div>
+            <div class="col-span-4"></div>
+        </div>
+    </div>
+
 </template>
